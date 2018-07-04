@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           python 1.0
 
 name                py-ligo-segments
-version             1.0.0
+version             1.0.1
 
 categories-append   science
 maintainers         {ligo.org:duncan.macleod @duncanmmacleod} openmaintainer
@@ -20,9 +20,9 @@ homepage            https://git.ligo.org/lscsoft/ligo-segments
 
 master_sites        pypi:l/ligo-segments
 distname            ligo-segments-${version}
-checksums   rmd160  a90803ef8a4228461a808ddb7e0caa78dbc8b5a1 \
-            sha256  d8bacc5a7e0a75afab8bced7c066036e844efe3e71f14e4e098d7846a29f0dc2 \
-            size    41659
+checksums   rmd160  60a7f295dbf598a657dfed154c771722c449f3d7 \
+            sha256  94159ab427422d4434dc9c07516a89fd7360ad27a64cb3d81b2015a27cd551ed \
+            size    39672
 
 python.versions     27 36
 python.default_version 27

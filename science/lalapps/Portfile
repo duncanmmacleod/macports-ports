@@ -24,13 +24,6 @@ long_description \
   LALApps is a set of codes for gravitational wave data analysis, \
   against the LSC Algorithm Library.
 
-conflicts     lalxml \
-              py27-lalxml \
-              lalstochastic \
-              py27-lalstochastic \
-              laldetchar \
-              py27-laldetchar
-
 homepage      https://wiki.ligo.org/Computing/DASWG/LALSuite
 master_sites  http://software.ligo.org/lscsoft/source/lalsuite/
 use_xz        yes
